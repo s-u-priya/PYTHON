@@ -1,0 +1,11 @@
+import pandas as pd
+# i) Create and display a one-dimensional Pandas Series
+data = [10, 20, 30, 40, 50]
+series = pd.Series(data)
+print("Pandas Series:")
+print(series)
+# ii) Convert Series to Python list and display its type
+list_data = series.tolist()
+print("\nConverted Python List:")
+print(list_data)
+print("Type of list_data:", type(list_data))
